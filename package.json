@@ -1,0 +1,20 @@
+{
+  "name": "ember-codemod",
+  "version": "1.0.0",
+  "description": "Codemods for ember",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramana Venkata <idlike2dream@gmail.com> (https://github.com/vramana)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.13.4",
+    "jscodeshift": "^0.3.11",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-register": "^6.3.13"
+  }
+}
