@@ -32,6 +32,11 @@ describe("Ember Codemods", () => {
   it("Initialize Arity", () => {
     test('initializer-arity', 'initializer-arity.test')
   })
+
+  it("Get Owner", () => {
+    test('get-owner', 'get-owner.test')
+    test('get-owner', 'get-owner-polyfill.test', { polyfill: true })
+  })
 })
 
 // console.log(p.join('./transforms/', 'default-layout'))
