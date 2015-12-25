@@ -28,6 +28,10 @@ describe("Ember Codemods", () => {
   it("Ember Component: Default Layout", () => {
     test('default-layout', 'default-layout.test')
   })
+
+  it("Initialize Arity", () => {
+    test('initializer-arity-2', 'initializer-arity.test')
+  })
 })
 
 // console.log(p.join('./transforms/', 'default-layout'))
