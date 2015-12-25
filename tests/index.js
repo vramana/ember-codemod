@@ -30,7 +30,7 @@ describe("Ember Codemods", () => {
   })
 
   it("Initialize Arity", () => {
-    test('initializer-arity-2', 'initializer-arity.test')
+    test('initializer-arity', 'initializer-arity.test')
   })
 })
 
