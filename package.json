@@ -7,6 +7,7 @@
     "test": "mocha --opts ./mocha.opts"
   },
   "author": "Ramana Venkata <idlike2dream@gmail.com> (https://github.com/vramana)",
+  "repository": "https://github.com/vramana/ember-codemod",
   "license": "MIT",
   "devDependencies": {
     "expect": "^1.13.4",
